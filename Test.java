@@ -11,7 +11,7 @@ Calendar calendar=Calendar.getInstance();
      calendar.set(Calendar.DATE,calendar.get(Calendar.DATE)-20);
      System.out.println(sdf.format(calendar.getTime()));
   calendar.set(Calendar.DATE,calendar.get(Calendar.DATE)+1);
-System.out.println(sdf.format(calendar.getTime()));
+//System.out.println(sdf.format(calendar.getTime()));
 
 }
 
